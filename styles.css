@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.content {
+    display: flex;
+}
+
+.product-left {
+    display: flex;
+}
+
+a {
+    color: #007185
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.main-img {
+    width: 350px;
+    height: 600px;
+    box-shadow: 0px 2px 5px lightgray;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+
+ul {
+    margin-top: 25px;
+}
+
+ul.breadcrumb {
+    list-style: none;
+    display: inline;
+    font-size: 14px;
+    color: #565956;
+}
+
+ul.breadcrumb li {
+  display: inline;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 2px;
+  color: black;
+  content: ">\00a0";
+}
+
+.star-ratings {
+    width: 115px;
+}
